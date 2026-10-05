@@ -8,14 +8,6 @@
 
 </div>
 
-## A little about me
-
-I'm learning to build software one step at a time, from programming fundamentals to the web. I enjoy exploring how things work and practising with new tools.
-
-- 🌱 **Currently learning:** Python, Rust, C++, HTML and CSS
-- 🧰 **Getting comfortable with:** VS Code, Microsoft Visual Studio, Git, the terminal and Linux
-- ✨ **Approach:** stay curious, keep building, learn from every bug
-
 ## Languages & web
 
 <p align="center">
@@ -29,6 +21,16 @@ I'm learning to build software one step at a time, from programming fundamentals
   <img src="https://skillicons.dev/icons?i=vscode,visualstudio,git,linux&amp;perline=4&amp;theme=dark" alt="VS Code, Microsoft Visual Studio, Git and Linux" />
 </p>
 <p align="center"><sub>VS Code · Microsoft Visual Studio · Git · Terminal · Linux</sub></p>
+
+## 🐍 Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/X-302-X/X-302-X/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/X-302-X/X-302-X/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated snake moving across my GitHub contribution graph" src="https://raw.githubusercontent.com/X-302-X/X-302-X/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 <div align="center">
 
