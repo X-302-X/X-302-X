@@ -1,16 +1,39 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**X-302-X/X-302-X** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hey, I'm X-302-X 👋
 
-Here are some ideas to get you started:
+**Aspiring developer · lifelong learner**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="./assets/typewriter.svg" alt="Animated terminal introducing X-302-X and their learning journey" width="640" />
+
+</div>
+
+## Languages & web
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,rust,cpp,html,css&amp;perline=5&amp;theme=dark" alt="Python, Rust, C++, HTML and CSS" />
+</p>
+<p align="center"><sub>Python · Rust · C++ · HTML · CSS</sub></p>
+
+## Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,visualstudio,git,linux&amp;perline=4&amp;theme=dark" alt="VS Code, Microsoft Visual Studio, Git and Linux" />
+</p>
+<p align="center"><sub>VS Code · Microsoft Visual Studio · Git · Terminal · Linux</sub></p>
+
+## 🐍 Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/X-302-X/X-302-X/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/X-302-X/X-302-X/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated snake moving across my GitHub contribution graph" src="https://raw.githubusercontent.com/X-302-X/X-302-X/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+<div align="center">
+
+**Code · Learn · Repeat** 🚀
+
+</div>
