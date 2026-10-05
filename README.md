@@ -4,7 +4,7 @@
 
 **UmbraNet · aspiring developer · lifelong learner**
 
-<img src="./assets/typewriter.svg" alt="Animated terminal where X-302-X asks, ‘Do you like pizza?’" width="640" />
+<img src="./assets/typewriter.svg" alt="Animated terminal showing X-302-X, a pizza question, and the programming languages in use" width="640" />
 
 </div>
 

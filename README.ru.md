@@ -4,7 +4,7 @@
 
 **UmbraNet · начинающий разработчик · учусь всю жизнь**
 
-<img src="./assets/typewriter.ru.svg" alt="Анимированный терминал: X-302-X спрашивает по-английски «Do you like pizza?»" width="640" />
+<img src="./assets/typewriter.ru.svg" alt="Анимированный терминал с ником X-302-X, вопросом про пиццу и строкой языков программирования" width="640" />
 
 </div>
 
