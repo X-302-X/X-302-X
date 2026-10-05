@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="190" viewBox="0 0 640 190" role="img" aria-labelledby="title description">
-  <title id="title">X-302-X — разработка UmbraNet</title>
-  <desc id="description">Анимированный терминал о разработке UmbraNet — сетевого инструмента для Windows.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-labelledby="title description">
+  <title id="title">X-302-X — do you like pizza?</title>
+  <desc id="description">Анимированный терминал представляет X-302-X и задаёт по-английски игривый вопрос: Do you like pizza?</desc>
   <defs>
     <clipPath id="command-line">
       <rect x="24" y="54" width="0" height="22">
@@ -9,7 +9,7 @@
     </clipPath>
   </defs>
 
-  <rect x="0.5" y="0.5" width="639" height="189" rx="12" fill="#0d1117" stroke="#30363d" />
+  <rect x="0.5" y="0.5" width="639" height="159" rx="12" fill="#0d1117" stroke="#30363d" />
   <circle cx="26" cy="24" r="6" fill="#ff5f56" />
   <circle cx="46" cy="24" r="6" fill="#ffbd2e" />
   <circle cx="66" cy="24" r="6" fill="#27c93f" />
@@ -19,30 +19,24 @@
   <!-- Static fallback remains readable when SVG animation is unavailable. -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve">
     <animate attributeName="opacity" values="1;0" begin="0.2s" dur="0.2s" fill="freeze" />
-    <text x="24" y="70"><tspan fill="#7ee787">$ </tspan><tspan fill="#e6edf3">cat ./about.txt</tspan></text>
+    <text x="24" y="70"><tspan fill="#7ee787">$ </tspan><tspan fill="#e6edf3">./icebreaker.sh</tspan></text>
     <text x="24" y="100" fill="#79c0ff">X-302-X</text>
-    <text x="24" y="130" fill="#e6edf3">Разрабатываю <tspan fill="#7ee787">UmbraNet</tspan> для Windows</text>
-    <text x="24" y="160" fill="#c9d1d9">Защищённый DNS · диагностика · восстановление сети</text>
+    <text x="24" y="130" fill="#e6edf3">Do you like pizza?</text>
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" xml:space="preserve">
-    <text x="24" y="70" clip-path="url(#command-line)"><tspan fill="#7ee787">$ </tspan><tspan fill="#e6edf3">cat ./about.txt</tspan></text>
-
+    <text x="24" y="70" clip-path="url(#command-line)"><tspan fill="#7ee787">$ </tspan><tspan fill="#e6edf3">./icebreaker.sh</tspan></text>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.35s" dur="0.2s" fill="freeze" />
       <text x="24" y="100" fill="#79c0ff">X-302-X</text>
     </g>
     <g opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.75s" dur="0.2s" fill="freeze" />
-      <text x="24" y="130" fill="#e6edf3">Разрабатываю <tspan fill="#7ee787">UmbraNet</tspan> для Windows</text>
-    </g>
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.15s" dur="0.2s" fill="freeze" />
-      <text x="24" y="160" fill="#c9d1d9">Защищённый DNS · диагностика · восстановление сети</text>
+      <animate attributeName="opacity" values="0;1" begin="1.8s" dur="0.2s" fill="freeze" />
+      <text x="24" y="130" fill="#e6edf3">Do you like pizza?</text>
     </g>
   </g>
 
-  <rect x="449" y="147" width="8.4" height="17" fill="#7ee787" opacity="0">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.42;0.58;1" dur="1s" begin="2.6s" repeatCount="indefinite" />
+  <rect x="180" y="117" width="8.4" height="17" fill="#7ee787" opacity="0">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.42;0.58;1" dur="1s" begin="2.35s" repeatCount="indefinite" />
   </rect>
 </svg>

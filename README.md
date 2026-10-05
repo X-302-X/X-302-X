@@ -4,7 +4,7 @@
 
 **UmbraNet · aspiring developer · lifelong learner**
 
-<img src="./assets/typewriter.svg" alt="Animated terminal introducing X-302-X and UmbraNet" width="640" />
+<img src="./assets/typewriter.svg" alt="Animated terminal where X-302-X asks, ‘Do you like pizza?’" width="640" />
 
 </div>
 
