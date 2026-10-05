@@ -41,16 +41,24 @@ single file. `build.mjs` falls back to the base file when no `-light` variant ex
 | Icons | Origin |
 | --- | --- |
 | `python`, `vscode`, `visualstudio`, `rust`, `cpp`, `html`, `css`, `git` | Vendored from [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons) (MIT) |
-| `terminal`, `linux` | Drawn for this profile |
+| `linux` | Canonical Tux artwork (Larry Ewing, 1996), taken from the CC0 [`logos` icon set](https://github.com/iconify/icon-sets) and fitted onto the skill-icons tile |
+| `terminal` | Drawn for this profile |
 
-Two icons were redrawn on purpose:
+`terminal` was drawn on purpose: skill-icons has no generic terminal icon, only `bash` and
+`powershell`, so the Tools row had nothing to show for Terminal.
 
-- **terminal** — skill-icons has no generic terminal icon, only `bash` and `powershell`,
-  so the Tools row had nothing to show for it;
-- **linux** — the upstream Tux spreads its flippers sideways and turns its head, which
-  reads as a smudge at the 40 px the row is displayed at. The redrawn Tux faces front and
-  keeps its dark back, so it stays readable on both the dark and the light tile. It also
-  matches upstream's geometry: flippers reach x≈56…202, feet rest at y≈237.
+Upstream's own Tux was replaced because it spreads its flippers sideways and turns its head,
+which reads as a smudge at the size the row is displayed at. The canonical artwork is used
+instead of a redraw, and it is not distorted: the 256×295 original is scaled by a single
+factor to 177×204 and centred, so the proportions are the author's.
+
+Two notes on fitting it onto the tile:
+
+- its gradients carry ids (`SVGPY0tCbOa` and friends); `build.mjs` prefixes every id with the
+  icon name so an inlined row cannot have one icon's gradient bleed into another;
+- it comes from a set where tiles are transparent, so it is placed on the usual dark/light
+  tile by hand, which is why `linux-dark`/`linux-light` are the only pair that carries a
+  full copy of the artwork rather than a tile swap.
 
 ## Spec
 

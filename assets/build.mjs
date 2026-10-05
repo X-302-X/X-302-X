@@ -25,6 +25,29 @@ const rows = {
 const svgTag = /<svg([^>]*)>/;
 
 /**
+ * Prefixes every id (and the url(#…) references to it) with the icon name.
+ *
+ * Icons are inlined side by side into one row, so two files defining the same
+ * id — gradient, clipPath, mask — would otherwise leak into each other. The
+ * vendored icons happen to use distinct ids today, but that is their choice to
+ * make, not something the row should rely on.
+ */
+function namespaceIds(markup, name) {
+  const ids = new Set([...markup.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]));
+  if (ids.size === 0) return markup;
+
+  let out = markup;
+  for (const id of ids) {
+    const safe = `${name}-${id}`;
+    out = out
+      .replaceAll(`id="${id}"`, `id="${safe}"`)
+      .replaceAll(`url(#${id})`, `url(#${safe})`)
+      .replaceAll(`href="#${id}"`, `href="#${safe}"`);
+  }
+  return out;
+}
+
+/**
  * Re-emits an icon's inner content wrapped in a <g>, shifted to `x` on the row
  * canvas.
  *
@@ -56,12 +79,15 @@ function place(name, theme, x) {
     (scale === 1 ? "" : `scale(${scale}) `) +
     `translate(${-minX} ${-minY})`;
 
-  const inner = src
-    .replace(/<\?xml[^>]*\?>/g, "")
-    .replace(/<title>[\s\S]*?<\/title>/g, "")
-    .replace(svgTag, "")
-    .replace(/<\/svg>\s*$/, "")
-    .trim();
+  const inner = namespaceIds(
+    src
+      .replace(/<\?xml[^>]*\?>/g, "")
+      .replace(/<title>[\s\S]*?<\/title>/g, "")
+      .replace(svgTag, "")
+      .replace(/<\/svg>\s*$/, "")
+      .trim(),
+    name,
+  );
 
   return `<g transform="${transform.trim()}">${inner}</g>`;
 }
