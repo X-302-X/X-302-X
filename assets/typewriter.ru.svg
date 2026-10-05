@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="190" viewBox="0 0 640 190" role="img" aria-labelledby="title description">
   <title id="title">X-302-X — do you like pizza?</title>
-  <desc id="description">An animated terminal shows X-302-X, asks “Do you like pizza?”, and lists Python, Rust, C++, HTML and CSS.</desc>
+  <desc id="description">Анимированный терминал показывает ник X-302-X, задаёт вопрос «Do you like pizza?» и перечисляет Python, Rust, C++, HTML и CSS.</desc>
   <defs>
     <linearGradient id="stack-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#7ee787" />
