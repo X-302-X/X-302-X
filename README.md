@@ -4,9 +4,7 @@
 
 **UmbraNet · aspiring developer · lifelong learner**
 
-<img src="./assets/typewriter.svg" alt="Animated terminal introducing X-302-X and their learning journey" width="640" />
-
-<sub>🌐 <b>English</b> · <a href="./README.ru.md">Русский</a></sub>
+<img src="./assets/typewriter.svg" alt="Animated terminal introducing X-302-X and UmbraNet" width="640" />
 
 </div>
 

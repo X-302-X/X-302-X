@@ -4,9 +4,7 @@
 
 **UmbraNet · начинающий разработчик · учусь всю жизнь**
 
-<img src="./assets/typewriter.svg" alt="Анимированный терминал, представляющий X-302-X" width="640" />
-
-<sub>🌐 <a href="./README.md">English</a> · <b>Русский</b></sub>
+<img src="./assets/typewriter.ru.svg" alt="Анимированный терминал о разработке UmbraNet" width="640" />
 
 </div>
 

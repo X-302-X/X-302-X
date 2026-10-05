@@ -5,7 +5,8 @@ third-party image hosts.
 
 ```
 assets/
-├── typewriter.svg        animated terminal in the header
+├── typewriter.svg        animated terminal in the English profile header
+├── typewriter.ru.svg     Russian version of the animated terminal
 ├── build.mjs             composes icons/ into rows/
 ├── icons/                one file per tech, 256x256 each
 └── rows/                 generated: the wide strips the README actually embeds
