@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256" role="img" aria-label="Linux">
+  <title>Linux (Tux)</title>
+  <rect width="256" height="256" fill="#F4F2ED" rx="60"/>
+  <g transform="rotate(-10 78 162)"><rect x="58" y="118" width="34" height="92" rx="17" fill="#0D1117"/></g>
+  <g transform="rotate(10 178 162)"><rect x="164" y="118" width="34" height="92" rx="17" fill="#0D1117"/></g>
+  <ellipse cx="96" cy="224" rx="27" ry="13" fill="#F6A623"/>
+  <ellipse cx="160" cy="224" rx="27" ry="13" fill="#F6A623"/>
+  <ellipse cx="128" cy="162" rx="57" ry="58" fill="#0D1117"/>
+  <ellipse cx="128" cy="174" rx="39" ry="46" fill="#ECEFF1"/>
+  <circle cx="128" cy="92" r="45" fill="#0D1117"/>
+  <ellipse cx="114" cy="88" rx="15" ry="18" fill="#ECEFF1"/>
+  <ellipse cx="142" cy="88" rx="15" ry="18" fill="#ECEFF1"/>
+  <circle cx="115" cy="89" r="6" fill="#0D1117"/>
+  <circle cx="141" cy="89" r="6" fill="#0D1117"/>
+  <ellipse cx="128" cy="106" rx="13" ry="9" fill="#F6A623"/>
+</svg>

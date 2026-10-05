@@ -2,25 +2,45 @@
 
 # Hey, I'm X-302-X 👋
 
-**Aspiring developer · lifelong learner**
+**UmbraNet · aspiring developer · lifelong learner**
 
 <img src="./assets/typewriter.svg" alt="Animated terminal introducing X-302-X and their learning journey" width="640" />
 
+<sub>🌐 <b>English</b> · <a href="./README.ru.md">Русский</a></sub>
+
 </div>
 
-## Languages & web
+## 🧰 Tech I use
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,rust,cpp,html,css&amp;perline=5&amp;theme=dark" alt="Python, Rust, C++, HTML and CSS" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/rows/skills-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/rows/skills-light.svg" />
+    <img src="./assets/rows/skills-dark.svg" alt="Python, Rust, C++, HTML and CSS" width="640" />
+  </picture>
 </p>
-<p align="center"><sub>Python · Rust · C++ · HTML · CSS</sub></p>
-
-## Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,visualstudio,git&amp;perline=3&amp;theme=dark" alt="VS Code, Microsoft Visual Studio and Git" height="48" /><img src="./assets/terminal.svg" alt="Terminal" height="48" /><img src="https://skillicons.dev/icons?i=linux&amp;perline=1&amp;theme=dark" alt="Linux" height="48" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/rows/tools-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/rows/tools-light.svg" />
+    <img src="./assets/rows/tools-dark.svg" alt="VS Code, Microsoft Visual Studio, Git, Terminal and Linux" width="640" />
+  </picture>
 </p>
-<p align="center"><sub>VS Code · Microsoft Visual Studio · Git · Terminal · Linux</sub></p>
+
+## 🚀 Projects
+
+### 👾 [UmbraNet](https://github.com/X-302-X/UmbraNet)
+
+**Secure DNS, network diagnostics and repair for Windows — in one window.**
+
+A desktop app built with PySide6 that bundles three things:
+
+- **traffic engine** — switchable TLS/QUIC strategies, stored in one place and swapped in a click;
+- **its own encrypted DNS server** — DoH / DoQ / DNSCrypt with cache, bogus-IP protection that detects provider stubs, automatic failover to the fastest provider and a fallback when everything else is down;
+- **diagnostics & repair** — DNS leak checks, one-click rollback of network settings, and a separate watchdog process that restores DNS even after a crash.
+
+<sub>Python · PySide6 · WinDivert · GPLv3 · 4 built-in themes</sub>
 
 ## 🐍 Contribution snake
 
@@ -34,6 +54,6 @@
 
 <div align="center">
 
-**Code · Learn · Repeat** 🚀
+**The future is under control** 👻
 
 </div>
