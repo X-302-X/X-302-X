@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256" role="img" aria-label="Terminal">
+  <title>Terminal</title>
+  <rect width="256" height="256" fill="#F4F2ED" rx="60"/>
+  <rect x="38" y="50" width="180" height="156" rx="22" fill="#0D1117"/>
+  <circle cx="74" cy="80" r="9" fill="#FF5F56"/>
+  <circle cx="102" cy="80" r="9" fill="#FFBD2E"/>
+  <circle cx="130" cy="80" r="9" fill="#27C93F"/>
+  <path d="M72 114L102 143L72 172" fill="none" stroke="#7EE787" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M128 172H176" fill="none" stroke="#58A6FF" stroke-width="16" stroke-linecap="round"/>
+</svg>
