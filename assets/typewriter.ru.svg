@@ -18,7 +18,7 @@
   <circle cx="26" cy="24" r="6" fill="#ff5f56" />
   <circle cx="46" cy="24" r="6" fill="#ffbd2e" />
   <circle cx="66" cy="24" r="6" fill="#27c93f" />
-  <text x="320" y="29" text-anchor="middle" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">x-302-x ~ bash</text>
+  <text x="320" y="29" text-anchor="middle" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">x-302-x ~ work</text>
   <line x1="0" y1="44" x2="640" y2="44" stroke="#21262d" />
 
   <!-- Static fallback remains readable when SVG animation is unavailable. -->
