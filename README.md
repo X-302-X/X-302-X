@@ -30,17 +30,7 @@
 
 ## 🚀 Projects
 
-### 👾 [UmbraNet](https://github.com/X-302-X/UmbraNet)
-
-**Secure DNS, network diagnostics and repair for Windows — in one window.**
-
-A desktop app built with PySide6 that bundles three things:
-
-- **traffic engine** — switchable TLS/QUIC strategies, stored in one place and swapped in a click;
-- **its own encrypted DNS server** — DoH / DoQ / DNSCrypt with cache, bogus-IP protection that detects provider stubs, automatic failover to the fastest provider and a fallback when everything else is down;
-- **diagnostics & repair** — DNS leak checks, one-click rollback of network settings, and a separate watchdog process that restores DNS even after a crash.
-
-<sub>Python · PySide6 · WinDivert · GPLv3 · 4 built-in themes</sub>
+👾 [**UmbraNet**](https://github.com/X-302-X/UmbraNet) · secure DNS, network diagnostics & repair for Windows
 
 ## 🐍 Contribution snake
 
